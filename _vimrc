@@ -73,13 +73,16 @@ endif
 
 "***** Setting *****
 set nocompatible "Turn off compatibility with vi
-"** Cording
+" Cording
 set encoding=utf-8
 set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 set fileformats=unix,dos,mac
+
+" Observe this order
 source $VIMRUNTIME/delmenu.vim
 set langmenu=ja_jp.utf_8
 source $VIMRUNTIME/menu.vim
+
 " Font Setting
 set guifont=Ricty_Diminished:h14:cSHIFTJIS:qDRAFT
 
